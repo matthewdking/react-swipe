@@ -11,6 +11,7 @@
   },
   "extends": ["eslint:recommended", "plugin:react/recommended", "airbnb-base"],
   "globals": {
+    "sessionStorage": true,
     "Style": true,
     "document": true,
     "describe": true,

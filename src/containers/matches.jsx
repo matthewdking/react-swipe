@@ -1,5 +1,12 @@
 import React from 'react';
 
-const Matches = () => <h1> Matches </h1>;
+import NavBar from '../components/nav_bar.jsx';
+
+const Matches = () => (
+  <div>
+    <NavBar />
+    <h1> Matches </h1>
+  </div>
+);
 
 export default Matches;
