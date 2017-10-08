@@ -1,7 +1,7 @@
 {
   "name": "react-swipe",
   "version": "1.0.0",
-  "description": "",
+  "description": "Swipe style app using react",
   "main": "index.jsx",
   "scripts": {
     "bundle": "webpack --config webpack.config.js",
@@ -11,6 +11,14 @@
   },
   "author": "matthewdking",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matthewdking/react-swipe.git"
+  },
+  "bugs": {
+    "url": "https://github.com/matthewdking/react-swipe/issues"
+  },
+  "homepage": "https://github.com/matthewdking/react-swipe#readme",
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-eslint": "^8.0.1",
@@ -37,5 +45,5 @@
     "react-redux": "^5.0.6",
     "react-router-dom": "^4.2.2",
     "redux": "^3.7.2"
-  }
+  },
 }
