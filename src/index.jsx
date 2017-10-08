@@ -1,10 +1,13 @@
-import ReactDOM from 'react-dom';
 import React from 'react';
+import ReactDOM from 'react-dom';
+import { Provider } from 'react-redux';
+import Routes from './router.jsx';
 
-import App from './app.jsx';
 import Style from '../public/style.css';
 
 ReactDOM.render(
-  <App />,
+  <Provider>
+    <Routes />
+  </Provider>,
   document.getElementById('root')
 );
